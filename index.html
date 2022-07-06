@@ -15,34 +15,49 @@
 
 <body>
 
-    <section class="content_login">
-
-        <div class="login">
-            <h2>Iniciar Sesion</h2>
-
-            <form class="login_form">
-
-                <div class="labels">
-                    <div class="icon_label"><i class="fas fa-user"></i></div>
-                    <input class="panels" value="" placeholder="Usuario" type="text" id="user">
-                </div>
-
-                <div class="labels">
-                    <div class="icon_label"><i class="fas fa-lock"></i></div>
-                    <input class="panels" value="" placeholder="Contraseña" type="password" id="user">
-                </div>
-
-                <input class="buttons" type="submit" name="loginGo" value="Ingresar">
-                
-                <a href="#">¿Olvidaste tu contraseña?</a>
-            </form>
-
+    <header class="header_last">
+            <div class="content_nav">
+                <span class="nav-bar" id="btnMenu"><i class="fas fa-bars fa-lg"></i></span>
+                <span class="my_logo">Kevin J. Sanchez</span>
+                <nav id="nav">
+                    <ul class="menu">
+                        <li><i class="fas fa-briefcase"></i><a href="https://kjsn-navy.vercel.app/">Portafolio Web</a></li>
+                        <li><i class="fab fa-github"></i><a href="https://github.com/KevinSanchez030329/Login-demo">Repositorio</a></li>
+                    </ul>
+                </nav>
         </div>
+    </header>
+
+    <section class="content_login">
+        <div class="login_post">
+
+            <div class="login">
+                <h2>Iniciar Sesion</h2>
+                <form class="login_form">
+
+                    <div class="labels">
+                        <div class="icon_label"><i class="fas fa-user"></i></div>
+                        <input class="panels" value="" placeholder="Usuario" type="text" id="user">
+                    </div>
+
+                    <div class="labels">
+                        <div class="icon_label"><i class="fas fa-lock"></i></div>
+                        <input class="panels" value="" placeholder="Contraseña" type="password" id="user">
+                    </div>
+
+                    <input class="buttons" type="submit" name="loginGo" value="Acceder">
+
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    <a class="limo" href="#">Registrate</a>
+                </form>
+            </div>
+
         </div>
     </section>
 
 
     <script src="https://kit.fontawesome.com/86c2c37b72.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
